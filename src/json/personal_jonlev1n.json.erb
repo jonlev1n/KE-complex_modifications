@@ -48,12 +48,12 @@
             "manipulators": [
                  {
                     "type": "basic",
-                    "from": <%= from("j", ['command'], ['any']) %>,
+                    "from": <%= from("j", ['command', 'control'], ['any']) %>,
                     "to": <%= to([["left_arrow", 'left_command']]) %>
                 },
                 {
                     "type": "basic",
-                    "from": <%= from("l", ['command'], ['any']) %>,
+                    "from": <%= from("l", ['command', 'control'], ['any']) %>,
                     "to": <%= to([["right_arrow", 'left_command']]) %>
                 }
             ]

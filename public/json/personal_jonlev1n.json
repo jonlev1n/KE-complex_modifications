@@ -136,7 +136,8 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "command"
+                "command",
+                "control"
               ],
               "optional": [
                 "any"
@@ -156,7 +157,8 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "command"
+                "command",
+                "control"
               ],
               "optional": [
                 "any"
